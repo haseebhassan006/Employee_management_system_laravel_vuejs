@@ -24,3 +24,15 @@ Auth::routes();
 Route::get('/{vue_capture?}', function () {
     return view('home');
 })->where('vue_capture', '[\/\w\.-]*');
+
+
+Route::resource('employees',EmployeeController::class);
+Route::resource('countries',CountryController::class);
+Route::resource('states',StateController::class);
+Route::resource('cities',CityController::class);
+Route::resource('departments',DepartmentController::class);
+
+
+
+
+
