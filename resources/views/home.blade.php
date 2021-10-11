@@ -1,6 +1,6 @@
 @extends('layouts.ems.master')
 
 @section('content')
-<router-view></router-view>
+<view-router></view-router>
 
 @endsection

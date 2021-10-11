@@ -53084,6 +53084,16 @@ var map = {
 		9,
 		"resources_js_components_ems_pages_HomeComponent_vue"
 	],
+	"./components/ems/pages/error/404Component": [
+		"./resources/js/components/ems/pages/error/404Component.vue",
+		9,
+		"resources_js_components_ems_pages_error_404Component_vue"
+	],
+	"./components/ems/pages/error/404Component.vue": [
+		"./resources/js/components/ems/pages/error/404Component.vue",
+		9,
+		"resources_js_components_ems_pages_error_404Component_vue"
+	],
 	"./router": [
 		"./resources/js/router.js",
 		9
@@ -53249,7 +53259,7 @@ module.exports = JSON.parse('{"_args":[["axios@0.21.4","C:\\\\laragon\\\\www\\\\
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if (chunkId === "resources_js_components_ems_pages_HomeComponent_vue") return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_ems_pages_HomeComponent_vue":1,"resources_js_components_ems_pages_error_404Component_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
