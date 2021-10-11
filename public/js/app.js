@@ -2216,6 +2216,7 @@ var routes = [{
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: routes,
+  mode: 'history',
   linkActiveClass: "active",
   linkExactActiveClass: "exact-active" // short for `
 
